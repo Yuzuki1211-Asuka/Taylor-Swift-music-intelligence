@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Logs / runtime
+logs/
+*.log
+feedback.jsonl
+
+# Local model files
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+/root/autodl-tmp/
+
+# Backups / experiments
+*.bak
+*.bak_*
+*_backup.py
+*_broken*.py
+*_stable.py
+*_before_*.py
+*_before*.html
+
+# Environment
+.env
+.venv/
+venv/
+conda-meta/
+
+# OS
+.DS_Store
+Thumbs.db

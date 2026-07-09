@@ -364,32 +364,6 @@ logs/feedback.jsonl
 
 ---
 
-## 推荐展示流程
-
-最终展示时可以按这个顺序演示：
-
-1. 打开交互式数据报告
-2. 展示数据概览和音频特征
-3. 点击顶部导航进入 AI Music Intelligence Studio
-4. 提问一个统计问题：
-
-```text
-哪个专辑平均 valence 最低？
-```
-
-5. 展示 pandas Result Table 和 Reliability: High
-6. 提问一个推荐问题：
-
-```text
-从 TTPD 里推荐几首 valence 低、energy 低的歌
-```
-
-7. 展示 Evidence Table、Hybrid RAG、Query Trace
-8. 点击 Helpful / Not Helpful 展示反馈记录
-9. 展示 System Card 总结系统设计
-
----
-
 ## 技术栈
 
 - Python
@@ -405,28 +379,6 @@ logs/feedback.jsonl
 - Local GPU Inference
 
 ---
-
-## 不上传到 GitHub 的内容
-
-请不要上传本地模型权重和运行日志。
-
-建议忽略：
-
-```text
-models/
-checkpoints/
-*.safetensors
-*.bin
-*.pt
-*.pth
-logs/
-feedback.jsonl
-__pycache__/
-*.pyc
-```
-
----
-
 ## 项目定位
 
 这个项目不是一个简单的 CSV 聊天机器人。

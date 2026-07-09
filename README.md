@@ -1,4 +1,3 @@
-cat > README.md <<'MD'
 # Taylor Swift Music Intelligence
 
 一个基于本地大模型的 Taylor Swift Spotify 音乐智能分析系统。
